@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\FreeD.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\FreeD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)FreeD.vcxitems">
+      <Filter>_stuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)FreeD.vcxitems.filters">
+      <Filter>_stuff</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties">
+      <Filter>_stuff</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt">
+      <Filter>_stuff</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_stuff">
+      <UniqueIdentifier>{9a193e62-f204-4b66-b334-011d841029d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
